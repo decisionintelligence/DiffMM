@@ -113,6 +113,7 @@ if __name__ == '__main__':
     data_root = os.path.join(os.getcwd(), '..', 'data')
     city = 'porto'
 
+    # map_dir, e.g. data/porto/map
     map_dir = os.path.join(data_root, city, 'map')
     map_dir_output = os.path.join(data_root, city, 'roadnetwork')
     if not os.path.exists(map_dir_output):
