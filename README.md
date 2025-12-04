@@ -14,6 +14,8 @@ Datasets are in `./data`.
 
 We provide toy datasets of Porto and Beijing both have 16,000 trajectories in training set and 10,000 trajectories in valid set and testing set, respectively. The corresponding road networks are also provided.
 
+Download the full dataset from [here](https://1drv.ms/f/c/d1bd805ed21f1d72/IgCXPw8Q1WfTT7R55W7BkFnuARXkpiWVOtgWav3ekVS-tII).
+
 ## Data Format
 
 ```
