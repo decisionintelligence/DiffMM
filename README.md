@@ -1,5 +1,7 @@
 # DiffMM: Efficient Method for Accurate Noisy and Sparse Trajectory Map Matching via One Step Diffusion
 
+**The official code repo of our AAAI 26's paper: [DiffMM: Efficient Method for Accurate Noisy and Sparse Trajectory Map Matching via One Step Diffusion](https://doi.org/10.1609/aaai.v40i17.38498).**
+
 ## Requirements
 
 - python==3.11
@@ -39,3 +41,16 @@ python main.py --city porto --keep_ratio 0.1 --epochs 30 --batch_size 512 --gpu_
 ```
 
 Data preprocess will be performed when first run on a new dataset, this might take a while.
+
+## Citation
+
+If you find this repo useful, please cite our paper.
+
+```latex
+@inproceedings{han2026diffmm,
+  title     = {DiffMM: Efficient Method for Accurate Noisy and Sparse Trajectory Map Matching via One Step Diffusion},
+  author    = {Chenxu Han and Sean Bin Yang and Jilin Hu},
+  booktitle = {AAAI},
+  year      = {2026}
+}
+```
